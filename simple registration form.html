@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Registration form</legend>
+
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td><input type="text" name="name" placeholder="enter your name"></td>
+        </tr>
+        <tr>
+            <th>phone no:</th>
+            <td><input type="number" name="number" placeholder="1234567890"></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <th>Branch</th>
+            <td><select name="branch" id="branch">
+                <option value="none">---select---</option>
+                <option value="CSE">CSE</option>
+                <option value="Mech">Mechanical</option>
+                <option value="electronic">ELectronic</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>
+                <input type="radio" name="gender" value="female">Female
+            </td>
+            <td>
+                    <input type="radio" name="gender" value="Male">Male
+            </td>
+        </tr>
+        <tr>
+            <th>Languages you know</th>
+            <td>
+                <input type="checkbox" name="language" id="lan">Java
+            </td>
+            <td>
+                    <input type="checkbox" name="language" id="lan">Sql
+            </td>
+            <td>
+                    <input type="checkbox" name="language" id="lan">python
+            </td>
+        </tr>
+        <tr>
+            <th>Upload image</th>
+            <td>
+                <input type="file" name="file" id="fil" >
+            </td>
+        </tr>
+        <th>Upload Resume</th>
+        <td>
+            <input type="file" name="file" id="fil" multiple>
+        </td>
+        <tr>
+            <td>
+                <input type="button" value="Submit">
+            </td>
+            <td>
+                <input type="button" value="Reset">
+            </td>
+        </tr>
+    </fieldset>
+    </table>
+    
+</body>
+</html>
